@@ -116,10 +116,10 @@ function App() {
         <Typography variant="body2" color="#fea505" p={2}>
         My Coin will build the fastest blockchain with lowest fee. Contract is renounced and Liquidity is locked for 5 years.
         </Typography>
-        <Typography variant="h7" color="text.secondary" p={2}>
+        <Typography variant="h7" color="#fea505" p={2}>
           Contract : 0x00000000000000000000
         </Typography>
-        <Typography variant="h6" color="text.secondary" p={2}>
+        <Typography variant="h6" color="#fea505" p={2}>
           Claim : 10 COIN
         </Typography>
       </CardContent>
