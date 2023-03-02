@@ -124,7 +124,7 @@ function App() {
         </Typography>
       </CardContent>
       <Divider />
-      <CardActions style={{justifyContent: 'center'}}>
+      <CardActions style={{justifyContent: 'center', backgroundColor: "#fea505"}}>
           {currentAccount ? airdropButton() : connectWalletButton()}
       </CardActions>
 
