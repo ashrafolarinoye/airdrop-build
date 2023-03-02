@@ -8,6 +8,7 @@ import { ethers } from 'ethers';
 import { Button, Divider, Avatar, Container, Card, CardHeader, CardMedia, CardContent, CardActions, Typography, CssBaseline,  } from '@mui/material';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import GetAppIcon from '@mui/icons-material/GetApp';
+import "@fontsource/kaushan-script"; // Defaults to weight 400.
 
 
 // You token contract address
@@ -104,7 +105,7 @@ function App() {
       }
         titleTypographyProps={{variant:'h5' }}
         title="My Coin Airdrop"
-        style={{backgroundColor: "#3c4273", color: "#ffffff"}}
+        style={{backgroundColor: "#3c4273", color: "#ffffff",  fontfamily: "Kaushan Script"}}
       />
       <CardMedia
         component="img"
