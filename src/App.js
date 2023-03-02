@@ -97,7 +97,7 @@ function App() {
       <CssBaseline />
       <Container maxWidth="sm">
 
-    <Card sx={{ maxWidth: 750, bgcolor: '#3c4273', margintop: "3vh" }}>
+    <Card sx={{ maxWidth: 750, bgcolor: '#3c4273', margintop: "5vh" }}>
       <CardHeader
       avatar={
         <Avatar src={logo} sx={{ width: 90, height: 90 }}/>
