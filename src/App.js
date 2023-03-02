@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import logo from './logo.png';
-import banner from './banner.png';
+import banner from './banner.gif';
 import './App.css';
 import abi from './contracts';
 import { ethers } from 'ethers';
@@ -97,14 +97,14 @@ function App() {
       <CssBaseline />
       <Container maxWidth="sm">
 
-    <Card sx={{ maxWidth: 750, bgcolor: '#fafafa' }}>
+    <Card sx={{ maxWidth: 750, bgcolor: '#3c4273' }}>
       <CardHeader
       avatar={
         <Avatar src={logo} sx={{ width: 90, height: 90 }}/>
       }
         titleTypographyProps={{variant:'h5' }}
         title="My Coin Airdrop"
-        style={{backgroundColor: "#e0e0e0"}}
+        style={{backgroundColor: "#3c4273"}}
       />
       <CardMedia
         component="img"

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 .App {
+  background-color: #757ac3;
   text-align: center;
 }
 
