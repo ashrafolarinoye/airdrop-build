@@ -97,14 +97,14 @@ function App() {
       <CssBaseline />
       <Container maxWidth="sm">
 
-    <Card sx={{ maxWidth: 750, bgcolor: '#3c4273' }}>
+    <Card sx={{ maxWidth: 750, bgcolor: '#3c4273', margintop: "3vh" }}>
       <CardHeader
       avatar={
         <Avatar src={logo} sx={{ width: 90, height: 90 }}/>
       }
         titleTypographyProps={{variant:'h5' }}
         title="My Coin Airdrop"
-        style={{backgroundColor: "#3c4273"}}
+        style={{backgroundColor: "#3c4273", color: "#ffffff"}}
       />
       <CardMedia
         component="img"
@@ -124,7 +124,7 @@ function App() {
         </Typography>
       </CardContent>
       <Divider />
-      <CardActions style={{justifyContent: 'center', backgroundColor: "#fea505"}}>
+      <CardActions style={{justifyContent: 'center'}}>
           {currentAccount ? airdropButton() : connectWalletButton()}
       </CardActions>
 
