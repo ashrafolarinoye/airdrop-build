@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.body{
-  font-family: "Kaushan Script";
-  background-color: #fea505;
-}
+
 
 .App {
   font-family: "Kaushan Script";
