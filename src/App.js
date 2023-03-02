@@ -8,7 +8,7 @@ import { ethers } from 'ethers';
 import { Button, Divider, Avatar, Container, Card, CardHeader, CardMedia, CardContent, CardActions, Typography, CssBaseline,  } from '@mui/material';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import GetAppIcon from '@mui/icons-material/GetApp';
-import "@fontsource/kaushan-script"; // Defaults to weight 400.
+import '@fontsource/kaushan-script';
 
 
 // You token contract address
