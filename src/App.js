@@ -113,7 +113,7 @@ function App() {
         alt=""
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary" p={2}>
+        <Typography variant="body2" color="#fea505" p={2}>
         My Coin will build the fastest blockchain with lowest fee. Contract is renounced and Liquidity is locked for 5 years.
         </Typography>
         <Typography variant="h7" color="text.secondary" p={2}>
