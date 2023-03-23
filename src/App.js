@@ -94,18 +94,18 @@ function App() {
   }
 
   return (
-    <React.Fragment style={{backgroundColor: "#3c4273"}}>
+    <React.Fragment style={{backgroundColor: "#02121D"}}>
       <CssBaseline />
       <Container maxWidth="sm">
 
-    <Card sx={{ maxWidth: 750, bgcolor: '#3c4273', margintop: "5vh" }}>
+    <Card sx={{ maxWidth: 750, bgcolor: '#02121D', margintop: "5vh" }}>
       <CardHeader
       avatar={
         <Avatar src={logo} sx={{ width: 90, height: 90 }}/>
       }
         titleTypographyProps={{variant:'h5' }}
         title="My Coin Airdrop"
-        style={{backgroundColor: "#032746", color: "#ffffff",  fontfamily: "Kaushan Script"}}
+        style={{backgroundColor: "#02121D", color: "#28DBD1",  fontfamily: "Kaushan Script"}}
       />
       <CardMedia
         component="img"
@@ -117,10 +117,10 @@ function App() {
         <Typography variant="body2" color="#fea505" p={2}>
         My Coin will build the fastest blockchain with lowest fee. Contract is renounced and Liquidity is locked for 5 years.
         </Typography>
-        <Typography variant="h7" color="#fea505" p={2}>
+        <Typography variant="h7" color="#28DBD1" p={2}>
           Contract : 0x00000000000000000000
         </Typography>
-        <Typography variant="h6" color="#fea505" p={2}>
+        <Typography variant="h6" color="#28DBD1" p={2}>
           Claim : 10 COIN
         </Typography>
       </CardContent>
