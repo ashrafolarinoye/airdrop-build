@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import logo from './logo.png';
-import banner from './banner.gif';
+import banner from './banner.png';
 import './App.css';
 import abi from './contracts';
 import { ethers } from 'ethers';
