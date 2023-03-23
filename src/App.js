@@ -50,7 +50,7 @@ function App() {
   const connectWalletButton = () => {
     return (
       <Button onClick={connectWalletHandler} variant="contained" startIcon={<AccountBalanceWalletIcon />}
-              style={{backgroundColor: "#02121D"}}>
+              style={{backgroundColor: "#28DBD1"}}>
         Claim Core Panda
       </Button>
     )
