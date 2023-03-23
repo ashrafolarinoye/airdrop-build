@@ -105,7 +105,7 @@ function App() {
       }
         titleTypographyProps={{variant:'h5' }}
         title="My Coin Airdrop"
-        style={{backgroundColor: "#3c4273", color: "#ffffff",  fontfamily: "Kaushan Script"}}
+        style={{backgroundColor: "#032746", color: "#ffffff",  fontfamily: "Kaushan Script"}}
       />
       <CardMedia
         component="img"
