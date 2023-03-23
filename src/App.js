@@ -49,8 +49,9 @@ function App() {
 
   const connectWalletButton = () => {
     return (
-      <Button onClick={connectWalletHandler} variant="contained" startIcon={<AccountBalanceWalletIcon />}>
-        Wallet Connect
+      <Button onClick={connectWalletHandler} variant="contained" startIcon={<AccountBalanceWalletIcon />}
+              style={{backgroundColor: "#02121D"}}>
+        Claim Core Panda
       </Button>
     )
   }
@@ -94,7 +95,7 @@ function App() {
   }
 
   return (
-    <React.Fragment style={{backgroundColor: "#02121D" padding: "30%"}}>
+    <React.Fragment style={{backgroundColor: "#02121D", padding: "30%"}}>
       <CssBaseline />
       <Container maxWidth="sm">
 
