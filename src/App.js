@@ -94,7 +94,7 @@ function App() {
   }
 
   return (
-    <React.Fragment style={{backgroundColor: "#02121D"; padding: "30%"}}>
+    <React.Fragment style={{backgroundColor: "#02121D" padding: "30%"}}>
       <CssBaseline />
       <Container maxWidth="sm">
 
